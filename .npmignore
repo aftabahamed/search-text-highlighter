@@ -1,0 +1,25 @@
+# Ignore TypeScript source files
+src/
+
+# Ignore test files
+*.spec.ts
+*.test.ts
+
+# Ignore TypeScript configuration files
+tsconfig.json
+*.tsbuildinfo
+
+# Ignore build scripts and other non-essential files
+build/
+*.log
+*.md
+.gitignore
+.npmignore
+.env
+
+# Ignore node_modules and other directories
+node_modules/
+dist/
+
+# Ensure that only the compiled output is included
+!dist/
